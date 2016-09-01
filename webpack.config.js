@@ -1,15 +1,15 @@
+
 module.exports = {
-  entry: './src/client.js',
+  entry: './src/middlew.js',
   // output: {
-  // path: './indexT.html'
+  // path: 
   // // filename: 'bundle.js'
   // },
   devServer: {
     inline: true,
     publicPath: '/',
-    //filename: 'client.js',
     //filename: 'bundle.js',
-    //contentBase: './src/client',
+    //contentBase: '',
     port: 8087
   },
   module: {
@@ -19,8 +19,9 @@ module.exports = {
         exclude: /node_modules/,
         loader: 'babel-loader',
         query: {
-          presets: ['react', 'es2015']
-        //   plugins: 'react-html-attrs', 'transform-class-properties', 'transform-decorators-legacy']
+          presets: ['react', 'es2015'],
+        // //  plugins: ['react-html-attrs', 'transform-class-properties', 'transform-decorators-legacy']
+          plugins: ['transform-object-rest-spread']
         }
       }
     ]

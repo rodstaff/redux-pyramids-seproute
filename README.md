@@ -11,6 +11,12 @@ GitHub - https://github.com/buckyroberts
 https://github.com/buckyroberts/React-Redux-Boilerplate
 Google+ - https://plus.google.com/+BuckyRoberts
 
+.babelrc =
+{
+  "presets":  ["es2015", "react"],
+  "plugins": ["transform-object-rest-spread"]
+}
+
 Bucky's webpack.config.js that didn't work for me!
 
 
