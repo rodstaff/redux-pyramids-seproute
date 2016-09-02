@@ -1,6 +1,6 @@
 
 module.exports = {
-  entry: './src/async.js',
+  entry: './src/js/client.js',
   // output: {
   // path: 
   // // filename: 'bundle.js'
@@ -19,9 +19,9 @@ module.exports = {
         exclude: /node_modules/,
         loader: 'babel-loader',
         query: {
-          presets: ['react', 'es2015'],
-        // //  plugins: ['react-html-attrs', 'transform-class-properties', 'transform-decorators-legacy']
-          plugins: ['transform-object-rest-spread']
+          presets: ['react', 'es2015', 'stage-0'],
+          plugins: ['react-html-attrs', 'transform-class-properties', 'transform-decorators-legacy', 'transform-object-rest-spread']
+          //plugins: ['transform-object-rest-spread']
         }
       }
     ]
