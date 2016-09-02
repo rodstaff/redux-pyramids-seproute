@@ -37,6 +37,7 @@ store.dispatch({
   type: "FETCH_USERS",
   payload: axios.get("http://rest.learncode.academy/api/wstern/users")
 })
+// Use below in case of 'thunk' middleware:
 // store.dispatch((dispatch) => {
 //   dispatch({type:  "fetch_users_start"})
 //   axios.get("http://rest.learncode.academy/api/wstern/users")
