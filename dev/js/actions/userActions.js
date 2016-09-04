@@ -2,8 +2,8 @@ export function fetchUser() {
   return {
     type: "FETCH_USER_FULFILLED",
     payload: {
-      name: "Anthony",
-      age: 2033
+      name: "Cleopatra",
+      age: 2035
     }
   };
 }
