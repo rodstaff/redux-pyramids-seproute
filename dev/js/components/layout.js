@@ -1,15 +1,16 @@
 import React from 'react'
-// import {connect} from 'react-redux'
+import {connect} from 'react-redux'
 
 // // import {fetchUser} from '../actions/userActions'
 
-// @connect((store) => {
-//   return {
+@connect((store) => {
+  return {
+    user: store.user.user
 //     user: store.user.user,
 // //   	userFetched: store.user.fetched
 // // // 	tweets: store.tweets.tweets
-//   };
-// })
+  };
+})
 
 export default class Layout extends React.Component {
   // componentWillMount() {
@@ -17,10 +18,10 @@ export default class Layout extends React.Component {
   // }
   render() {
     // console.log(this.props);
-    // this.props.user
+    console.log(this.props.user);
   	return ( 
   	  <div>
-        <h1>Hello Work!</h1>
+        <h1>Hello Work!!!</h1>
 
       </div>
   	);
