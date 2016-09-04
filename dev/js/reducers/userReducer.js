@@ -1,8 +1,8 @@
 const initialState = {
   user: {
-    id: "",
-    name: "",
-    age: 0
+    id: "123",
+    name: "Anthony",
+    age: 2033
   },
   fetching: false,
   fetched: false,
@@ -10,7 +10,7 @@ const initialState = {
   error: null
 }
 
-export default function reducer (state=initialState, action) {
+export default function (state=initialState, action) {
   switch (action.type) {
     case "FETCH_USER": {
       return {
@@ -45,6 +45,7 @@ export default function reducer (state=initialState, action) {
         user: {...state.user, age: action.payload}
       };
     }
-  return state;
+ // return state;  <== wrong position!!!
   }
+  return state;
 };

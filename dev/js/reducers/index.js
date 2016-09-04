@@ -1,8 +1,9 @@
 import {combineReducers} from 'redux'
-//import tweets from './tweetsReducer'
-import user from './userReducer'
+import TweetsReducer from './tweetsReducer'
+import UserReducer from './userReducer'
 
-export default combineReducers({
-  // tweets,
-  user
-})
+const allReducers = combineReducers({
+  tweets:  TweetsReducer,
+  user:  UserReducer
+});
+export default allReducers;
