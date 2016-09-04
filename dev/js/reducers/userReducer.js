@@ -6,7 +6,7 @@ const initialState = {
   },
   fetching: false,
   fetched: false,
-  users: [],
+  users: ["Raphael", "Michaelangelo", "Leonardo", "Donatello"],
   error: null
 }
 

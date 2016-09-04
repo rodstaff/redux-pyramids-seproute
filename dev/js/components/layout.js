@@ -8,8 +8,8 @@ import {fetchUser} from '../actions/userActions'
 @connect((store) => {    
   return {               
     user: store.userA.user,
-    test: store.userA.users,   // 'test' => can be called anything, e.g. 'userList'
-    tweets: store.tweets
+    initialUsers: store.userA.users,   // 'test' => can be called anything, e.g. 'userList'
+    tweets: store.tweets.tweets
   };
 })
 
@@ -23,6 +23,7 @@ export default class Layout extends React.Component {
   	  <div>
         <h1>Hello Pyramids</h1>
         <h3>{this.props.user.name}, Age: {this.props.user.age}</h3>
+        <h3>Ninja Turtle? = {this.props.initialUsers[0]}!</h3>
       </div>
   	);
   }
