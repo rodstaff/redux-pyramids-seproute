@@ -1,3 +1,6 @@
+#reduxstates
+This is a great way to learn redux/react states, if you do not get dizzy and stuck in the process...
+
 Basic Redux Introduction - Redux Tutorial #7
 link:  https://www.youtube.com/watch?v=nrg7zhgJd4w&spfreload=5
 

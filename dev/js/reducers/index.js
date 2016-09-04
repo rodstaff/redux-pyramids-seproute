@@ -4,6 +4,6 @@ import UserReducer from './userReducer'
 
 const allReducers = combineReducers({
   tweets:  TweetsReducer,
-  user:  UserReducer
+  userA:  UserReducer
 });
 export default allReducers;
