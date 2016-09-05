@@ -1,5 +1,5 @@
 const initialState = {
-  tweets: [1,2,3],
+  tweets: ["What's up?", "Where are you?", "Good luck!"],
   fetching: false,
   fetched: false,
   error: null
