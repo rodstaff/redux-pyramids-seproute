@@ -1,11 +1,21 @@
-#reduxstates
-This is a great way to learn redux/react states, if you do not get dizzy and stuck in the process...
+#redux-pyramids
 
-Basic Redux Introduction - Redux Tutorial #7
-link:  https://www.youtube.com/watch?v=nrg7zhgJd4w&spfreload=5
+Master:  Redux and ReactRouting together.
+split-route:  Redux and ReactRouting separated.
 
-Facebook - https://www.facebook.com/TheNewBoston...
-GitHub - https://github.com/buckyroberts
-https://github.com/buckyroberts/React-Redux-Boilerplate
-Google+ - https://plus.google.com/+BuckyRoberts
+This is the 'split-route' branch.
+
+Some Git notes here:  link= https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
+
+Add a new remote for your branch :
+
+$ git remote add [name_of_your_remote] 
+Push changes from your commit into your branch :
+
+$ git push [name_of_your_new_remote] [name_of_your_branch]
+
+
+
+
+
 
