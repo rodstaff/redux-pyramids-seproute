@@ -4,8 +4,8 @@ This is the 'split-route' branch.
 
 There are two branches:
 
-Master = Redux and ReactRouting together.
-split-route = Redux and ReactRouting separated.
+(Main):  Master = Redux and ReactRouting together.
+(2nd):   split-route = Redux and ReactRouting separated.
 
 Some Git notes here:  link= https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
 
