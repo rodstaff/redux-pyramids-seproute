@@ -11,7 +11,7 @@ module.exports = {
     publicPath: '/',
     //filename: 'bundle.js',
     //contentBase: '',
-    port: 8087
+    port: 8083
   },
   module: {
     loaders: [
